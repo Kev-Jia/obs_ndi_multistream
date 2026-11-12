@@ -1,7 +1,7 @@
 {
     "name": "playtest",
     "DesktopAudioDevice1": {
-        "prev_ver": 536936450,
+        "prev_ver": 553648129,
         "name": "Desktop Audio",
         "uuid": "ffcd20f0-54b4-4ab4-8813-35d9d12f6f12",
         "id": "wasapi_output_capture",
@@ -23,16 +23,19 @@
         "hotkeys": {
             "libobs.mute": [],
             "libobs.unmute": [],
+            "libobs.monitor-on": [],
+            "libobs.monitor-off": [],
             "libobs.push-to-mute": [],
             "libobs.push-to-talk": []
         },
         "deinterlace_mode": 0,
         "deinterlace_field_order": 0,
         "monitoring_type": 0,
+        "monitoring_enabled": false,
         "private_settings": {}
     },
     "AuxAudioDevice1": {
-        "prev_ver": 536936450,
+        "prev_ver": 553648129,
         "name": "Mic/Aux",
         "uuid": "80deb0b2-fce5-4ca8-8c2a-497b773802d8",
         "id": "wasapi_input_capture",
@@ -54,12 +57,15 @@
         "hotkeys": {
             "libobs.mute": [],
             "libobs.unmute": [],
+            "libobs.monitor-on": [],
+            "libobs.monitor-off": [],
             "libobs.push-to-mute": [],
             "libobs.push-to-talk": []
         },
         "deinterlace_mode": 0,
         "deinterlace_field_order": 0,
         "monitoring_type": 0,
+        "monitoring_enabled": false,
         "private_settings": {}
     },
     "groups": [],
@@ -100,7 +106,7 @@
     "saved_projectors": [],
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": -9,
+    "scaling_level": 5,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "virtual-camera": {
@@ -483,7 +489,7 @@
     "version": 2,
     "sources": [
         {
-            "prev_ver": 536936450,
+            "prev_ver": 553648129,
             "name": "Audio Input Capture",
             "uuid": "34904a08-02dd-4ee8-b25d-a060bd1d1636",
             "id": "wasapi_input_capture",
@@ -505,16 +511,19 @@
             "hotkeys": {
                 "libobs.mute": [],
                 "libobs.unmute": [],
+                "libobs.monitor-on": [],
+                "libobs.monitor-off": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
+            "monitoring_enabled": false,
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
+            "prev_ver": 553648129,
             "name": "default",
             "uuid": "0f49c821-2433-4fa7-8311-584ae9138b22",
             "id": "scene",
@@ -600,11 +609,11 @@
                         "group_item_backup": false,
                         "pos": {
                             "x": 1680.0,
-                            "y": 300.0
+                            "y": 270.0
                         },
                         "pos_rel": {
-                            "x": 1.3333333730697632,
-                            "y": -0.4444444179534912
+                            "x": 1.3329815864562988,
+                            "y": -0.5
                         },
                         "scale": {
                             "x": 0.4921926259994507,
@@ -699,7 +708,7 @@
                             "y": 1080.0
                         },
                         "align": 5,
-                        "bounds_type": 0,
+                        "bounds_type": 2,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "crop_left": 0,
@@ -709,11 +718,11 @@
                         "id": 13,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 1520.0,
+                            "x": 1440.0,
                             "y": 0.0
                         },
                         "pos_rel": {
-                            "x": 1.0370370149612427,
+                            "x": 0.8888888955116272,
                             "y": -1.0
                         },
                         "scale": {
@@ -725,12 +734,12 @@
                             "y": 0.625
                         },
                         "bounds": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 480.0,
+                            "y": 270.0
                         },
                         "bounds_rel": {
-                            "x": 0.0018518518190830946,
-                            "y": 0.0018518518190830946
+                            "x": 0.8888888955116272,
+                            "y": 0.5
                         },
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -754,7 +763,7 @@
                             "y": 1080.0
                         },
                         "align": 5,
-                        "bounds_type": 0,
+                        "bounds_type": 2,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "crop_left": 0,
@@ -764,28 +773,28 @@
                         "id": 4,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 1660.0,
-                            "y": 420.0
+                            "x": 1620.0,
+                            "y": 390.0
                         },
                         "pos_rel": {
-                            "x": 1.296296238899231,
-                            "y": -0.2222222089767456
+                            "x": 1.2222222089767456,
+                            "y": -0.2777777910232544
                         },
                         "scale": {
-                            "x": 0.3005780279636383,
-                            "y": 0.3003003001213074
-                        },
-                        "scale_rel": {
-                            "x": 0.3005780279636383,
-                            "y": 0.3003003001213074
-                        },
-                        "bounds": {
                             "x": 1.0,
                             "y": 1.0
                         },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 300.0,
+                            "y": 240.0
+                        },
                         "bounds_rel": {
-                            "x": 0.0018518518190830946,
-                            "y": 0.0018518518190830946
+                            "x": 0.5555555820465088,
+                            "y": 0.4444444477558136
                         },
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -809,7 +818,7 @@
                             "y": 1080.0
                         },
                         "align": 5,
-                        "bounds_type": 0,
+                        "bounds_type": 2,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "crop_left": 0,
@@ -819,28 +828,28 @@
                         "id": 15,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 1520.0,
-                            "y": 420.0
+                            "x": 1500.0,
+                            "y": 390.0
                         },
                         "pos_rel": {
-                            "x": 1.0370370149612427,
-                            "y": -0.2222222089767456
+                            "x": 1.0,
+                            "y": -0.2777777910232544
                         },
                         "scale": {
-                            "x": 0.4736842215061188,
-                            "y": 0.4750593900680542
-                        },
-                        "scale_rel": {
-                            "x": 0.4736842215061188,
-                            "y": 0.4750593900680542
-                        },
-                        "bounds": {
                             "x": 1.0,
                             "y": 1.0
                         },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 120.0,
+                            "y": 240.0
+                        },
                         "bounds_rel": {
-                            "x": 0.0018518518190830946,
-                            "y": 0.0018518518190830946
+                            "x": 0.2222222238779068,
+                            "y": 0.4444444477558136
                         },
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -864,7 +873,7 @@
                             "y": 1080.0
                         },
                         "align": 5,
-                        "bounds_type": 0,
+                        "bounds_type": 2,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "crop_left": 0,
@@ -874,28 +883,28 @@
                         "id": 16,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 1520.0,
-                            "y": 640.0
+                            "x": 1500.0,
+                            "y": 630.0
                         },
                         "pos_rel": {
-                            "x": 1.0370370149612427,
-                            "y": 0.18518519401550293
+                            "x": 1.0,
+                            "y": 0.16666662693023682
                         },
                         "scale": {
-                            "x": 0.1953125,
-                            "y": 0.19323670864105225
-                        },
-                        "scale_rel": {
-                            "x": 0.1953125,
-                            "y": 0.19323670864105225
-                        },
-                        "bounds": {
                             "x": 1.0,
                             "y": 1.0
                         },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 420.0,
+                            "y": 240.0
+                        },
                         "bounds_rel": {
-                            "x": 0.0018518518190830946,
-                            "y": 0.0018518518190830946
+                            "x": 0.7777777910232544,
+                            "y": 0.4444444477558136
                         },
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -929,10 +938,10 @@
                 "libobs.hide_scene_item.9": [],
                 "libobs.show_scene_item.10": [],
                 "libobs.hide_scene_item.10": [],
-                "libobs.show_scene_item.4": [],
-                "libobs.hide_scene_item.4": [],
                 "libobs.show_scene_item.13": [],
                 "libobs.hide_scene_item.13": [],
+                "libobs.show_scene_item.4": [],
+                "libobs.hide_scene_item.4": [],
                 "libobs.show_scene_item.15": [],
                 "libobs.hide_scene_item.15": [],
                 "libobs.show_scene_item.16": [],
@@ -941,11 +950,12 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
+            "monitoring_enabled": false,
             "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
+            "prev_ver": 553648129,
             "name": "Game Capture",
             "uuid": "8e33b474-c6cb-4982-8e9d-f6976e02bb7e",
             "id": "game_capture",
@@ -968,6 +978,8 @@
             "hotkeys": {
                 "libobs.mute": [],
                 "libobs.unmute": [],
+                "libobs.monitor-on": [],
+                "libobs.monitor-off": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
                 "hotkey_start": [],
@@ -976,18 +988,19 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
+            "monitoring_enabled": false,
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
+            "prev_ver": 553648129,
             "name": "mouse",
             "uuid": "a0d3aa86-1271-4db3-adfb-acb4f7602b34",
             "id": "input-overlay",
             "versioned_id": "input-overlay",
             "settings": {
                 "io.input_source": "This computer",
-                "io.overlay_image": "C:/Users/espor/Desktop/input-overlay-5.0.6-presets/mouse/mouse.png",
-                "io.layout_file": "C:/Users/espor/Desktop/input-overlay-5.0.6-presets/mouse/mouse-arrow.json"
+                "io.overlay_image": "C:/Users/espor/OneDrive/Desktop/input-overlay-5.1.3-presets/mouse/mouse.png",
+                "io.layout_file": "C:/Users/espor/OneDrive/Desktop/input-overlay-5.1.3-presets/mouse/mouse-arrow.json"
             },
             "mixers": 0,
             "sync": 0,
@@ -1004,10 +1017,11 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
+            "monitoring_enabled": false,
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
+            "prev_ver": 553648129,
             "name": "Player Name",
             "uuid": "3aacdbb9-6151-4c99-bbee-b009be1a635f",
             "id": "text_gdiplus",
@@ -1036,10 +1050,11 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
+            "monitoring_enabled": false,
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
+            "prev_ver": 553648129,
             "name": "Video Capture Device",
             "uuid": "33f1feec-c065-40be-915a-83a78021f96e",
             "id": "dshow_input",
@@ -1062,16 +1077,19 @@
             "hotkeys": {
                 "libobs.mute": [],
                 "libobs.unmute": [],
+                "libobs.monitor-on": [],
+                "libobs.monitor-off": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
+            "monitoring_enabled": false,
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
+            "prev_ver": 553648129,
             "name": "wasd-extended-numeric",
             "uuid": "116c445e-c7e8-4b65-bd7c-2065e1a0b302",
             "id": "input-overlay",
@@ -1079,8 +1097,8 @@
             "settings": {
                 "io.controller_id": "0 Xbox One Controller - XBox One Controller",
                 "io.input_source": "This computer",
-                "io.overlay_image": "C:/Users/espor/Desktop/input-overlay-5.0.6-presets/wasd-extended-numeric/wasd-extended-numeric.png",
-                "io.layout_file": "C:/Users/espor/Desktop/input-overlay-5.0.6-presets/wasd-extended-numeric/wasd-extended-numeric.json"
+                "io.overlay_image": "C:/Users/espor/OneDrive/Desktop/input-overlay-5.1.3-presets/wasd-extended-numeric/wasd-extended-numeric.png",
+                "io.layout_file": "C:/Users/espor/OneDrive/Desktop/input-overlay-5.1.3-presets/wasd-extended-numeric/wasd-extended-numeric.json"
             },
             "mixers": 0,
             "sync": 0,
@@ -1097,18 +1115,19 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
+            "monitoring_enabled": false,
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
+            "prev_ver": 553648129,
             "name": "xbox-controller",
             "uuid": "486a8c90-c1e1-4f87-aa55-d70db4f0f7cb",
             "id": "input-overlay",
             "versioned_id": "input-overlay",
             "settings": {
                 "io.input_source": "This computer",
-                "io.overlay_image": "C:/Users/espor/Desktop/input-overlay-5.0.6-presets/xbox-controller/xbox-controller.png",
-                "io.layout_file": "C:/Users/espor/Desktop/input-overlay-5.0.6-presets/xbox-controller/xbox-controller.json"
+                "io.overlay_image": "C:/Users/espor/OneDrive/Desktop/input-overlay-5.1.3-presets/xbox-controller/xbox-controller.png",
+                "io.layout_file": "C:/Users/espor/OneDrive/Desktop/input-overlay-5.1.3-presets/xbox-controller/xbox-controller.json"
             },
             "mixers": 0,
             "sync": 0,
@@ -1125,6 +1144,7 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
+            "monitoring_enabled": false,
             "private_settings": {}
         }
     ]
