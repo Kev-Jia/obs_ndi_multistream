@@ -524,6 +524,35 @@
         },
         {
             "prev_ver": 553648129,
+            "name": "controller",
+            "uuid": "486a8c90-c1e1-4f87-aa55-d70db4f0f7cb",
+            "id": "input-overlay",
+            "versioned_id": "input-overlay",
+            "settings": {
+                "io.input_source": "This computer",
+                "io.overlay_image": "C:/Users/espor/OneDrive/Desktop/input-overlay-5.1.3-presets/xbox-controller/xbox-controller.png",
+                "io.layout_file": "C:/Users/espor/OneDrive/Desktop/input-overlay-5.1.3-presets/xbox-controller/xbox-controller.json"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "monitoring_enabled": false,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 553648129,
             "name": "default",
             "uuid": "0f49c821-2433-4fa7-8311-584ae9138b22",
             "id": "scene",
@@ -598,7 +627,7 @@
                             "y": 1080.0
                         },
                         "align": 5,
-                        "bounds_type": 0,
+                        "bounds_type": 2,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "crop_left": 0,
@@ -612,24 +641,24 @@
                             "y": 360.0
                         },
                         "pos_rel": {
-                            "x": 1.3329815864562988,
+                            "x": 1.3333333730697632,
                             "y": -0.3333333134651184
                         },
                         "scale": {
-                            "x": 0.4921926259994507,
-                            "y": 0.46875
-                        },
-                        "scale_rel": {
-                            "x": 0.4921926259994507,
-                            "y": 0.46875
-                        },
-                        "bounds": {
                             "x": 1.0,
                             "y": 1.0
                         },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 240.0,
+                            "y": 120.0
+                        },
                         "bounds_rel": {
-                            "x": 0.0018518518190830946,
-                            "y": 0.0018518518190830946
+                            "x": 0.4444444477558136,
+                            "y": 0.2222222238779068
                         },
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -755,7 +784,7 @@
                     {
                         "name": "wasd-extended-numeric",
                         "source_uuid": "116c445e-c7e8-4b65-bd7c-2065e1a0b302",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
@@ -810,7 +839,7 @@
                     {
                         "name": "mouse",
                         "source_uuid": "a0d3aa86-1271-4db3-adfb-acb4f7602b34",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
@@ -863,9 +892,9 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "xbox-controller",
+                        "name": "controller",
                         "source_uuid": "486a8c90-c1e1-4f87-aa55-d70db4f0f7cb",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
@@ -1099,35 +1128,6 @@
                 "io.input_source": "This computer",
                 "io.overlay_image": "C:/Users/espor/OneDrive/Desktop/input-overlay-5.1.3-presets/wasd-extended-numeric/wasd-extended-numeric.png",
                 "io.layout_file": "C:/Users/espor/OneDrive/Desktop/input-overlay-5.1.3-presets/wasd-extended-numeric/wasd-extended-numeric.json"
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "monitoring_enabled": false,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 553648129,
-            "name": "xbox-controller",
-            "uuid": "486a8c90-c1e1-4f87-aa55-d70db4f0f7cb",
-            "id": "input-overlay",
-            "versioned_id": "input-overlay",
-            "settings": {
-                "io.input_source": "This computer",
-                "io.overlay_image": "C:/Users/espor/OneDrive/Desktop/input-overlay-5.1.3-presets/xbox-controller/xbox-controller.png",
-                "io.layout_file": "C:/Users/espor/OneDrive/Desktop/input-overlay-5.1.3-presets/xbox-controller/xbox-controller.json"
             },
             "mixers": 0,
             "sync": 0,

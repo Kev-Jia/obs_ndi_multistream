@@ -161,8 +161,8 @@
             "name": "24"
         }
     ],
-    "current_scene": "Multiview 2x5_1080",
-    "current_program_scene": "Multiview 2x5_1080",
+    "current_scene": "Multiview 3x4_1080",
+    "current_program_scene": "Multiview 3x4_1080",
     "canvases": [],
     "current_transition": "Fade",
     "transition_duration": 300,
@@ -193,7 +193,7 @@
     "saved_projectors": [],
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": 5,
+    "scaling_level": -3,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "virtual-camera": {
@@ -4241,12 +4241,12 @@
                             "y": 0.3888888359069824
                         },
                         "scale": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 480.0,
@@ -7501,7 +7501,7 @@
             "versioned_id": "ndi_source",
             "settings": {
                 "ndi_fix_alpha_blending": false,
-                "ndi_source_name": "BRIDGE07 (PC07 (INPUT07))",
+                "ndi_source_name": "BRIDGE01 (PC01 (INPUT01))",
                 "web_control_url": ""
             },
             "mixers": 255,
@@ -7537,7 +7537,7 @@
             "versioned_id": "ndi_source",
             "settings": {
                 "ndi_fix_alpha_blending": false,
-                "ndi_source_name": "BRIDGE08 (PC08 (INPUT08))",
+                "ndi_source_name": "BRIDGE02 (PC02 (INPUT02))",
                 "web_control_url": ""
             },
             "mixers": 255,
@@ -7573,7 +7573,7 @@
             "versioned_id": "ndi_source",
             "settings": {
                 "ndi_fix_alpha_blending": false,
-                "ndi_source_name": "BRIDGE09 (PC09 (INPUT09))",
+                "ndi_source_name": "BRIDGE03 (PC03 (INPUT03))",
                 "web_control_url": ""
             },
             "mixers": 255,
@@ -7609,7 +7609,7 @@
             "versioned_id": "ndi_source",
             "settings": {
                 "ndi_fix_alpha_blending": false,
-                "ndi_source_name": "BRIDGE10 (PC10 (INPUT10))",
+                "ndi_source_name": "BRIDGE04 (PC04 (INPUT04))",
                 "web_control_url": ""
             },
             "mixers": 255,
@@ -7645,7 +7645,7 @@
             "versioned_id": "ndi_source",
             "settings": {
                 "ndi_fix_alpha_blending": false,
-                "ndi_source_name": "BRIDGE11 (PC11 (INPUT11))",
+                "ndi_source_name": "BRIDGE05 (PC05 (INPUT05))",
                 "web_control_url": ""
             },
             "mixers": 255,
@@ -7681,7 +7681,7 @@
             "versioned_id": "ndi_source",
             "settings": {
                 "ndi_fix_alpha_blending": false,
-                "ndi_source_name": "BRIDGE12 (PC12 (INPUT12))",
+                "ndi_source_name": "BRIDGE06 (PC06 (INPUT06))",
                 "web_control_url": ""
             },
             "mixers": 255,
@@ -7717,7 +7717,7 @@
             "versioned_id": "ndi_source",
             "settings": {
                 "ndi_fix_alpha_blending": false,
-                "ndi_source_name": "PC21-BRIDGE (PC21 (INPUT21))",
+                "ndi_source_name": "BRIDGE07 (PC07 (INPUT07))",
                 "web_control_url": ""
             },
             "mixers": 255,
@@ -7753,7 +7753,7 @@
             "versioned_id": "ndi_source",
             "settings": {
                 "ndi_fix_alpha_blending": false,
-                "ndi_source_name": "PC22-BRIDGE (PC22 (INPUT22))",
+                "ndi_source_name": "BRIDGE08 (PC08 (INPUT08))",
                 "web_control_url": ""
             },
             "mixers": 255,
@@ -7789,7 +7789,7 @@
             "versioned_id": "ndi_source",
             "settings": {
                 "ndi_fix_alpha_blending": false,
-                "ndi_source_name": "PC23-BRIDGE (PC23 (INPUT23))",
+                "ndi_source_name": "BRIDGE09 (PC09 (INPUT09))",
                 "web_control_url": ""
             },
             "mixers": 255,
@@ -7825,7 +7825,7 @@
             "versioned_id": "ndi_source",
             "settings": {
                 "ndi_fix_alpha_blending": false,
-                "ndi_source_name": "PC24-BRIDGE (PC24 (INPUT24))",
+                "ndi_source_name": "BRIDGE10 (PC10 (INPUT10))",
                 "web_control_url": ""
             },
             "mixers": 255,
@@ -7861,7 +7861,7 @@
             "versioned_id": "ndi_source",
             "settings": {
                 "ndi_fix_alpha_blending": false,
-                "ndi_source_name": "BRIDGE11 (DESKTOP-26P4DHF (INPUT11))",
+                "ndi_source_name": "BRIDGE11 (PC11 (INPUT11))",
                 "web_control_url": ""
             },
             "mixers": 255,
@@ -7933,6 +7933,7 @@
             "versioned_id": "ndi_source",
             "settings": {
                 "ndi_fix_alpha_blending": false,
+                "ndi_source_name": "BRIDGE13 (PC13 (INPUT13))",
                 "web_control_url": ""
             },
             "mixers": 255,
@@ -7968,6 +7969,7 @@
             "versioned_id": "ndi_source",
             "settings": {
                 "ndi_fix_alpha_blending": false,
+                "ndi_source_name": "BRIDGE14 (PC14 (INPUT14))",
                 "web_control_url": ""
             },
             "mixers": 255,
@@ -8003,6 +8005,7 @@
             "versioned_id": "ndi_source",
             "settings": {
                 "ndi_fix_alpha_blending": false,
+                "ndi_source_name": "BRIDGE15 (PC15 (INPUT15))",
                 "web_control_url": ""
             },
             "mixers": 255,
@@ -8038,6 +8041,7 @@
             "versioned_id": "ndi_source",
             "settings": {
                 "ndi_fix_alpha_blending": false,
+                "ndi_source_name": "BRIDGE16 (PC16 (INPUT16))",
                 "web_control_url": ""
             },
             "mixers": 255,
@@ -8073,6 +8077,7 @@
             "versioned_id": "ndi_source",
             "settings": {
                 "ndi_fix_alpha_blending": false,
+                "ndi_source_name": "BRIDGE17 (PC17 (INPUT17))",
                 "web_control_url": ""
             },
             "mixers": 255,
@@ -8108,6 +8113,7 @@
             "versioned_id": "ndi_source",
             "settings": {
                 "ndi_fix_alpha_blending": false,
+                "ndi_source_name": "BRIDGE18 (PC18 (INPUT18))",
                 "web_control_url": ""
             },
             "mixers": 255,
@@ -8143,6 +8149,7 @@
             "versioned_id": "ndi_source",
             "settings": {
                 "ndi_fix_alpha_blending": false,
+                "ndi_source_name": "BRIDGE19 (PC19 (INPUT19))",
                 "web_control_url": ""
             },
             "mixers": 255,
@@ -8178,6 +8185,7 @@
             "versioned_id": "ndi_source",
             "settings": {
                 "ndi_fix_alpha_blending": false,
+                "ndi_source_name": "BRIDGE21 (PC21 (INPUT21))",
                 "web_control_url": ""
             },
             "mixers": 255,
@@ -8213,6 +8221,7 @@
             "versioned_id": "ndi_source",
             "settings": {
                 "ndi_fix_alpha_blending": false,
+                "ndi_source_name": "BRIDGE21 (PC21 (INPUT21))",
                 "web_control_url": ""
             },
             "mixers": 255,
@@ -8248,6 +8257,7 @@
             "versioned_id": "ndi_source",
             "settings": {
                 "ndi_fix_alpha_blending": false,
+                "ndi_source_name": "BRIDGE22 (PC22 (INPUT22))",
                 "web_control_url": ""
             },
             "mixers": 255,
@@ -8283,6 +8293,7 @@
             "versioned_id": "ndi_source",
             "settings": {
                 "ndi_fix_alpha_blending": false,
+                "ndi_source_name": "BRIDGE23 (PC23 (INPUT23))",
                 "web_control_url": ""
             },
             "mixers": 255,
@@ -8318,6 +8329,7 @@
             "versioned_id": "ndi_source",
             "settings": {
                 "ndi_fix_alpha_blending": false,
+                "ndi_source_name": "BRIDGE24 (PC24 (INPUT24))",
                 "web_control_url": ""
             },
             "mixers": 255,
