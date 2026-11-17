@@ -72,6 +72,9 @@
     "scene_order": [
         {
             "name": "default"
+        },
+        {
+            "name": "interview"
         }
     ],
     "current_scene": "default",
@@ -106,7 +109,7 @@
     "saved_projectors": [],
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": 5,
+    "scaling_level": -9,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "virtual-camera": {
@@ -524,35 +527,6 @@
         },
         {
             "prev_ver": 553648129,
-            "name": "controller",
-            "uuid": "486a8c90-c1e1-4f87-aa55-d70db4f0f7cb",
-            "id": "input-overlay",
-            "versioned_id": "input-overlay",
-            "settings": {
-                "io.input_source": "This computer",
-                "io.overlay_image": "C:/Users/espor/OneDrive/Desktop/input-overlay-5.1.3-presets/xbox-controller/xbox-controller.png",
-                "io.layout_file": "C:/Users/espor/OneDrive/Desktop/input-overlay-5.1.3-presets/xbox-controller/xbox-controller.json"
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "monitoring_enabled": false,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 553648129,
             "name": "default",
             "uuid": "0f49c821-2433-4fa7-8311-584ae9138b22",
             "id": "scene",
@@ -627,7 +601,7 @@
                             "y": 1080.0
                         },
                         "align": 5,
-                        "bounds_type": 2,
+                        "bounds_type": 0,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "crop_left": 0,
@@ -637,28 +611,28 @@
                         "id": 9,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 1680.0,
+                            "x": 1612.0,
                             "y": 360.0
                         },
                         "pos_rel": {
-                            "x": 1.3333333730697632,
+                            "x": 1.207198977470398,
                             "y": -0.3333333134651184
                         },
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.4921926259994507,
+                            "y": 0.46875
                         },
                         "scale_rel": {
+                            "x": 0.4921926259994507,
+                            "y": 0.46875
+                        },
+                        "bounds": {
                             "x": 1.0,
                             "y": 1.0
                         },
-                        "bounds": {
-                            "x": 240.0,
-                            "y": 120.0
-                        },
                         "bounds_rel": {
-                            "x": 0.4444444477558136,
-                            "y": 0.2222222238779068
+                            "x": 0.0018518518190830946,
+                            "y": 0.0018518518190830946
                         },
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -682,7 +656,7 @@
                             "y": 1080.0
                         },
                         "align": 5,
-                        "bounds_type": 0,
+                        "bounds_type": 2,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "crop_left": 0,
@@ -693,27 +667,27 @@
                         "group_item_backup": false,
                         "pos": {
                             "x": 0.0,
-                            "y": 70.0
+                            "y": 135.0
                         },
                         "pos_rel": {
                             "x": -1.7777777910232544,
-                            "y": -0.8703703880310059
+                            "y": -0.75
                         },
                         "scale": {
-                            "x": 0.778124988079071,
-                            "y": 0.7777777910232544
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.778124988079071,
-                            "y": 0.7777777910232544
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 1440.0,
+                            "y": 810.0
                         },
                         "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 2.6666667461395264,
+                            "y": 1.5
                         },
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -784,7 +758,7 @@
                     {
                         "name": "wasd-extended-numeric",
                         "source_uuid": "116c445e-c7e8-4b65-bd7c-2065e1a0b302",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
@@ -839,7 +813,7 @@
                     {
                         "name": "mouse",
                         "source_uuid": "a0d3aa86-1271-4db3-adfb-acb4f7602b34",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
@@ -892,9 +866,9 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "controller",
+                        "name": "xbox-controller",
                         "source_uuid": "486a8c90-c1e1-4f87-aa55-d70db4f0f7cb",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
@@ -1022,14 +996,446 @@
         },
         {
             "prev_ver": 553648129,
+            "name": "interview",
+            "uuid": "b04286b0-d9b0-4e3a-a12e-a9cd9a1dc978",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 7,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Audio Input Capture",
+                        "source_uuid": "34904a08-02dd-4ee8-b25d-a060bd1d1636",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Player Name",
+                        "source_uuid": "3aacdbb9-6151-4c99-bbee-b009be1a635f",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 1612.0,
+                            "y": 360.0
+                        },
+                        "pos_rel": {
+                            "x": 1.207198977470398,
+                            "y": -0.3333333134651184
+                        },
+                        "scale": {
+                            "x": 0.4921926259994507,
+                            "y": 0.46875
+                        },
+                        "scale_rel": {
+                            "x": 0.4921926259994507,
+                            "y": 0.46875
+                        },
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0018518518190830946,
+                            "y": 0.0018518518190830946
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Game Capture",
+                        "source_uuid": "8e33b474-c6cb-4982-8e9d-f6976e02bb7e",
+                        "visible": false,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 2,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 3,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 135.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -0.75
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 1440.0,
+                            "y": 810.0
+                        },
+                        "bounds_rel": {
+                            "x": 2.6666667461395264,
+                            "y": 1.5
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Video Capture Device",
+                        "source_uuid": "33f1feec-c065-40be-915a-83a78021f96e",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 2,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 4,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 2.25,
+                            "y": 2.25
+                        },
+                        "scale_rel": {
+                            "x": 2.25,
+                            "y": 2.25
+                        },
+                        "bounds": {
+                            "x": 1440.0,
+                            "y": 1080.0
+                        },
+                        "bounds_rel": {
+                            "x": 2.6666667461395264,
+                            "y": 2.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 300
+                        },
+                        "hide_transition": {
+                            "duration": 300
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "wasd-extended-numeric",
+                        "source_uuid": "116c445e-c7e8-4b65-bd7c-2065e1a0b302",
+                        "visible": false,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 2,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 5,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 1620.0,
+                            "y": 480.0
+                        },
+                        "pos_rel": {
+                            "x": 1.2222222089767456,
+                            "y": -0.1111111044883728
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 300.0,
+                            "y": 240.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.5555555820465088,
+                            "y": 0.4444444477558136
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "mouse",
+                        "source_uuid": "a0d3aa86-1271-4db3-adfb-acb4f7602b34",
+                        "visible": false,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 2,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 6,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 1500.0,
+                            "y": 480.0
+                        },
+                        "pos_rel": {
+                            "x": 1.0,
+                            "y": -0.1111111044883728
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 120.0,
+                            "y": 240.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.2222222238779068,
+                            "y": 0.4444444477558136
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 300
+                        },
+                        "hide_transition": {
+                            "duration": 300
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "xbox-controller",
+                        "source_uuid": "486a8c90-c1e1-4f87-aa55-d70db4f0f7cb",
+                        "visible": false,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 2,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 7,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 1500.0,
+                            "y": 480.0
+                        },
+                        "pos_rel": {
+                            "x": 1.0,
+                            "y": -0.1111111044883728
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 420.0,
+                            "y": 240.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.7777777910232544,
+                            "y": 0.4444444477558136
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 300
+                        },
+                        "hide_transition": {
+                            "duration": 300
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": [],
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": [],
+                "libobs.show_scene_item.3": [],
+                "libobs.hide_scene_item.3": [],
+                "libobs.show_scene_item.4": [],
+                "libobs.hide_scene_item.4": [],
+                "libobs.show_scene_item.5": [],
+                "libobs.hide_scene_item.5": [],
+                "libobs.show_scene_item.6": [],
+                "libobs.hide_scene_item.6": [],
+                "libobs.show_scene_item.7": [],
+                "libobs.hide_scene_item.7": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "monitoring_enabled": false,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 553648129,
             "name": "mouse",
             "uuid": "a0d3aa86-1271-4db3-adfb-acb4f7602b34",
             "id": "input-overlay",
             "versioned_id": "input-overlay",
             "settings": {
                 "io.input_source": "This computer",
-                "io.overlay_image": "C:/Users/espor/OneDrive/Desktop/input-overlay-5.1.3-presets/mouse/mouse.png",
-                "io.layout_file": "C:/Users/espor/OneDrive/Desktop/input-overlay-5.1.3-presets/mouse/mouse-arrow.json"
+                "io.layout_file": "C:/Users/espor/OneDrive/Desktop/input-overlay-5.1.3-presets/mouse/mouse-arrow.json",
+                "io.overlay_image": "C:/Users/espor/OneDrive/Desktop/input-overlay-5.1.3-presets/mouse/mouse.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -1056,7 +1462,7 @@
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v3",
             "settings": {
-                "text": "Name",
+                "text": "Edward",
                 "font": {
                     "face": "Impact",
                     "flags": 0,
@@ -1089,8 +1495,8 @@
             "id": "dshow_input",
             "versioned_id": "dshow_input",
             "settings": {
-                "last_video_device_id": "Logitech StreamCam:\\\\?\\usb#22vid_046d&pid_0893&mi_00#229&1e1b595a&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
-                "video_device_id": "Logitech StreamCam:\\\\?\\usb#22vid_046d&pid_0893&mi_00#229&1e1b595a&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global"
+                "video_device_id": "Streamplify CAM PLUS:\\\\?\\usb#22vid_3443&pid_660a&mi_00#228&4a0faf9&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+                "last_video_device_id": "Streamplify CAM PLUS:\\\\?\\usb#22vid_3443&pid_660a&mi_00#228&4a0faf9&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global"
             },
             "mixers": 255,
             "sync": 0,
@@ -1126,8 +1532,37 @@
             "settings": {
                 "io.controller_id": "0 Xbox One Controller - XBox One Controller",
                 "io.input_source": "This computer",
-                "io.overlay_image": "C:/Users/espor/OneDrive/Desktop/input-overlay-5.1.3-presets/wasd-extended-numeric/wasd-extended-numeric.png",
-                "io.layout_file": "C:/Users/espor/OneDrive/Desktop/input-overlay-5.1.3-presets/wasd-extended-numeric/wasd-extended-numeric.json"
+                "io.layout_file": "C:/Users/espor/OneDrive/Desktop/input-overlay-5.1.3-presets/wasd-extended-numeric/wasd-extended-numeric.json",
+                "io.overlay_image": "C:/Users/espor/OneDrive/Desktop/input-overlay-5.1.3-presets/wasd-extended-numeric/wasd-extended-numeric.png"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "monitoring_enabled": false,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 553648129,
+            "name": "xbox-controller",
+            "uuid": "486a8c90-c1e1-4f87-aa55-d70db4f0f7cb",
+            "id": "input-overlay",
+            "versioned_id": "input-overlay",
+            "settings": {
+                "io.input_source": "This computer",
+                "io.layout_file": "C:/Users/espor/Desktop/input-overlay-5.1.3-presets/xbox-controller/xbox-controller.json",
+                "io.overlay_image": "C:/Users/espor/Desktop/input-overlay-5.1.3-presets/xbox-controller/xbox-controller.png"
             },
             "mixers": 0,
             "sync": 0,
