@@ -1,7 +1,7 @@
 {
     "name": "playtest",
     "DesktopAudioDevice1": {
-        "prev_ver": 553648129,
+        "prev_ver": 553648131,
         "name": "Desktop Audio",
         "uuid": "ffcd20f0-54b4-4ab4-8813-35d9d12f6f12",
         "id": "wasapi_output_capture",
@@ -12,10 +12,10 @@
         "mixers": 255,
         "sync": 0,
         "flags": 0,
-        "volume": 0.24449270963668823,
+        "volume": 0.12593519687652588,
         "balance": 0.5,
         "enabled": true,
-        "muted": false,
+        "muted": true,
         "push-to-mute": false,
         "push-to-mute-delay": 0,
         "push-to-talk": false,
@@ -35,7 +35,7 @@
         "private_settings": {}
     },
     "AuxAudioDevice1": {
-        "prev_ver": 553648129,
+        "prev_ver": 553648131,
         "name": "Mic/Aux",
         "uuid": "80deb0b2-fce5-4ca8-8c2a-497b773802d8",
         "id": "wasapi_input_capture",
@@ -74,7 +74,7 @@
             "name": "default"
         },
         {
-            "name": "interview"
+            "name": "intervirew"
         }
     ],
     "current_scene": "default",
@@ -492,7 +492,7 @@
     "version": 2,
     "sources": [
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "Audio Input Capture",
             "uuid": "34904a08-02dd-4ee8-b25d-a060bd1d1636",
             "id": "wasapi_input_capture",
@@ -526,7 +526,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "default",
             "uuid": "0f49c821-2433-4fa7-8311-584ae9138b22",
             "id": "scene",
@@ -611,11 +611,11 @@
                         "id": 9,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 1612.0,
+                            "x": 1716.0,
                             "y": 360.0
                         },
                         "pos_rel": {
-                            "x": 1.207198977470398,
+                            "x": 1.4004302024841309,
                             "y": -0.3333333134651184
                         },
                         "scale": {
@@ -656,7 +656,7 @@
                             "y": 1080.0
                         },
                         "align": 5,
-                        "bounds_type": 2,
+                        "bounds_type": 0,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "crop_left": 0,
@@ -667,27 +667,27 @@
                         "group_item_backup": false,
                         "pos": {
                             "x": 0.0,
-                            "y": 135.0
+                            "y": 70.0
                         },
                         "pos_rel": {
                             "x": -1.7777777910232544,
-                            "y": -0.75
+                            "y": -0.8703703880310059
                         },
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.778124988079071,
+                            "y": 0.7777777910232544
                         },
                         "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.778124988079071,
+                            "y": 0.7777777910232544
                         },
                         "bounds": {
-                            "x": 1440.0,
-                            "y": 810.0
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "bounds_rel": {
-                            "x": 2.6666667461395264,
-                            "y": 1.5
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -868,7 +868,7 @@
                     {
                         "name": "xbox-controller",
                         "source_uuid": "486a8c90-c1e1-4f87-aa55-d70db4f0f7cb",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
@@ -958,7 +958,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "Game Capture",
             "uuid": "8e33b474-c6cb-4982-8e9d-f6976e02bb7e",
             "id": "game_capture",
@@ -995,9 +995,9 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
-            "name": "interview",
-            "uuid": "b04286b0-d9b0-4e3a-a12e-a9cd9a1dc978",
+            "prev_ver": 553648131,
+            "name": "intervirew",
+            "uuid": "17a3e065-0d5e-4c15-8f3c-83049691aec3",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
@@ -1080,11 +1080,11 @@
                         "id": 2,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 1612.0,
+                            "x": 1714.5,
                             "y": 360.0
                         },
                         "pos_rel": {
-                            "x": 1.207198977470398,
+                            "x": 1.3972222805023193,
                             "y": -0.3333333134651184
                         },
                         "scale": {
@@ -1125,7 +1125,7 @@
                             "y": 1080.0
                         },
                         "align": 5,
-                        "bounds_type": 2,
+                        "bounds_type": 0,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "crop_left": 0,
@@ -1136,27 +1136,27 @@
                         "group_item_backup": false,
                         "pos": {
                             "x": 0.0,
-                            "y": 135.0
+                            "y": 70.0
                         },
                         "pos_rel": {
                             "x": -1.7777777910232544,
-                            "y": -0.75
+                            "y": -0.8703703880310059
                         },
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.778124988079071,
+                            "y": 0.7777777910232544
                         },
                         "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.778124988079071,
+                            "y": 0.7777777910232544
                         },
                         "bounds": {
-                            "x": 1440.0,
-                            "y": 810.0
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "bounds_rel": {
-                            "x": 2.6666667461395264,
-                            "y": 1.5
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -1190,27 +1190,27 @@
                         "id": 4,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
+                            "x": 69.0,
                             "y": 0.0
                         },
                         "pos_rel": {
-                            "x": -1.7777777910232544,
+                            "x": -1.649999976158142,
                             "y": -1.0
                         },
                         "scale": {
-                            "x": 2.25,
-                            "y": 2.25
+                            "x": 0.625,
+                            "y": 0.625
                         },
                         "scale_rel": {
-                            "x": 2.25,
-                            "y": 2.25
+                            "x": 0.625,
+                            "y": 0.625
                         },
                         "bounds": {
-                            "x": 1440.0,
+                            "x": 1652.0,
                             "y": 1080.0
                         },
                         "bounds_rel": {
-                            "x": 2.6666667461395264,
+                            "x": 3.0592591762542725,
                             "y": 2.0
                         },
                         "scale_filter": "disable",
@@ -1427,15 +1427,15 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "mouse",
             "uuid": "a0d3aa86-1271-4db3-adfb-acb4f7602b34",
             "id": "input-overlay",
             "versioned_id": "input-overlay",
             "settings": {
                 "io.input_source": "This computer",
-                "io.layout_file": "C:/Users/espor/OneDrive/Desktop/input-overlay-5.1.3-presets/mouse/mouse-arrow.json",
-                "io.overlay_image": "C:/Users/espor/OneDrive/Desktop/input-overlay-5.1.3-presets/mouse/mouse.png"
+                "io.layout_file": "C:/Users/espor/Desktop/input-overlay-5.1.3-presets/mouse/mouse-arrow.json",
+                "io.overlay_image": "C:/Users/espor/Desktop/input-overlay-5.1.3-presets/mouse/mouse.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -1456,13 +1456,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "Player Name",
             "uuid": "3aacdbb9-6151-4c99-bbee-b009be1a635f",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v3",
             "settings": {
-                "text": "Edward",
+                "text": "Mika",
                 "font": {
                     "face": "Impact",
                     "flags": 0,
@@ -1489,14 +1489,15 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "Video Capture Device",
             "uuid": "33f1feec-c065-40be-915a-83a78021f96e",
             "id": "dshow_input",
             "versioned_id": "dshow_input",
             "settings": {
-                "video_device_id": "Streamplify CAM PLUS:\\\\?\\usb#22vid_3443&pid_660a&mi_00#228&4a0faf9&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
-                "last_video_device_id": "Streamplify CAM PLUS:\\\\?\\usb#22vid_3443&pid_660a&mi_00#228&4a0faf9&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global"
+                "last_video_device_id": "Logitech StreamCam:\\\\?\\usb#22vid_046d&pid_0893&mi_00#229&ef2d529&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+                "video_device_id": "Logitech StreamCam:\\\\?\\usb#22vid_046d&pid_0893&mi_00#229&ef2d529&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+                "active": true
             },
             "mixers": 255,
             "sync": 0,
@@ -1524,7 +1525,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "wasd-extended-numeric",
             "uuid": "116c445e-c7e8-4b65-bd7c-2065e1a0b302",
             "id": "input-overlay",
@@ -1532,8 +1533,8 @@
             "settings": {
                 "io.controller_id": "0 Xbox One Controller - XBox One Controller",
                 "io.input_source": "This computer",
-                "io.layout_file": "C:/Users/espor/OneDrive/Desktop/input-overlay-5.1.3-presets/wasd-extended-numeric/wasd-extended-numeric.json",
-                "io.overlay_image": "C:/Users/espor/OneDrive/Desktop/input-overlay-5.1.3-presets/wasd-extended-numeric/wasd-extended-numeric.png"
+                "io.layout_file": "C:/Users/espor/Desktop/input-overlay-5.1.3-presets/wasd-extended-numeric/wasd-extended-numeric.json",
+                "io.overlay_image": "C:/Users/espor/Desktop/input-overlay-5.1.3-presets/wasd-extended-numeric/wasd-extended-numeric.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -1554,7 +1555,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "xbox-controller",
             "uuid": "486a8c90-c1e1-4f87-aa55-d70db4f0f7cb",
             "id": "input-overlay",
@@ -1562,7 +1563,8 @@
             "settings": {
                 "io.input_source": "This computer",
                 "io.layout_file": "C:/Users/espor/Desktop/input-overlay-5.1.3-presets/xbox-controller/xbox-controller.json",
-                "io.overlay_image": "C:/Users/espor/Desktop/input-overlay-5.1.3-presets/xbox-controller/xbox-controller.png"
+                "io.overlay_image": "C:/Users/espor/Desktop/input-overlay-5.1.3-presets/xbox-controller/xbox-controller.png",
+                "io.controller_id": "Xbox One Controller - XBox One Controller"
             },
             "mixers": 0,
             "sync": 0,
