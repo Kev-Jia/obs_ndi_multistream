@@ -1,7 +1,7 @@
 {
     "name": "playtest",
     "DesktopAudioDevice1": {
-        "prev_ver": 553648129,
+        "prev_ver": 553648131,
         "name": "Desktop Audio",
         "uuid": "ffcd20f0-54b4-4ab4-8813-35d9d12f6f12",
         "id": "wasapi_output_capture",
@@ -35,7 +35,7 @@
         "private_settings": {}
     },
     "AuxAudioDevice1": {
-        "prev_ver": 553648129,
+        "prev_ver": 553648131,
         "name": "Mic/Aux",
         "uuid": "80deb0b2-fce5-4ca8-8c2a-497b773802d8",
         "id": "wasapi_input_capture",
@@ -109,7 +109,7 @@
     "saved_projectors": [],
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": -9,
+    "scaling_level": 5,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "virtual-camera": {
@@ -492,7 +492,7 @@
     "version": 2,
     "sources": [
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "Audio Input Capture",
             "uuid": "34904a08-02dd-4ee8-b25d-a060bd1d1636",
             "id": "wasapi_input_capture",
@@ -526,14 +526,14 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "default",
             "uuid": "0f49c821-2433-4fa7-8311-584ae9138b22",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 16,
+                "id_counter": 17,
                 "items": [
                     {
                         "name": "Audio Input Capture",
@@ -600,7 +600,7 @@
                             "x": 1920.0,
                             "y": 1080.0
                         },
-                        "align": 5,
+                        "align": 2,
                         "bounds_type": 0,
                         "bounds_align": 0,
                         "bounds_crop": false,
@@ -611,12 +611,12 @@
                         "id": 9,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 1680.0,
-                            "y": 360.0
+                            "x": 1920.0,
+                            "y": 420.0
                         },
                         "pos_rel": {
-                            "x": 1.3329815864562988,
-                            "y": -0.3333333134651184
+                            "x": 1.7781295776367188,
+                            "y": -0.2222222089767456
                         },
                         "scale": {
                             "x": 0.4921926259994507,
@@ -919,6 +919,61 @@
                             "duration": 300
                         },
                         "private_settings": {}
+                    },
+                    {
+                        "name": "Window Capture",
+                        "source_uuid": "7e2b7522-3858-42f2-b900-c5387051f9f2",
+                        "visible": false,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 17,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 0.46875,
+                            "y": 0.517241358757019
+                        },
+                        "scale_rel": {
+                            "x": 0.46875,
+                            "y": 0.517241358757019
+                        },
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0018518518190830946,
+                            "y": 0.0018518518190830946
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 300
+                        },
+                        "hide_transition": {
+                            "duration": 300
+                        },
+                        "private_settings": {}
                     }
                 ]
             },
@@ -948,7 +1003,9 @@
                 "libobs.show_scene_item.15": [],
                 "libobs.hide_scene_item.15": [],
                 "libobs.show_scene_item.16": [],
-                "libobs.hide_scene_item.16": []
+                "libobs.hide_scene_item.16": [],
+                "libobs.show_scene_item.17": [],
+                "libobs.hide_scene_item.17": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -958,7 +1015,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "Game Capture",
             "uuid": "8e33b474-c6cb-4982-8e9d-f6976e02bb7e",
             "id": "game_capture",
@@ -995,7 +1052,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "interview",
             "uuid": "b04286b0-d9b0-4e3a-a12e-a9cd9a1dc978",
             "id": "scene",
@@ -1427,7 +1484,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "mouse",
             "uuid": "a0d3aa86-1271-4db3-adfb-acb4f7602b34",
             "id": "input-overlay",
@@ -1456,19 +1513,19 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "Player Name",
             "uuid": "3aacdbb9-6151-4c99-bbee-b009be1a635f",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v3",
             "settings": {
+                "text": "Name",
                 "font": {
                     "face": "Impact",
                     "flags": 0,
                     "size": 256,
                     "style": "Regular"
-                },
-                "text": "Name"
+                }
             },
             "mixers": 0,
             "sync": 0,
@@ -1489,7 +1546,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "Video Capture Device",
             "uuid": "33f1feec-c065-40be-915a-83a78021f96e",
             "id": "dshow_input",
@@ -1524,7 +1581,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "wasd-extended-numeric",
             "uuid": "116c445e-c7e8-4b65-bd7c-2065e1a0b302",
             "id": "input-overlay",
@@ -1554,7 +1611,41 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
+            "name": "Window Capture",
+            "uuid": "7e2b7522-3858-42f2-b900-c5387051f9f2",
+            "id": "window_capture",
+            "versioned_id": "window_capture",
+            "settings": {
+                "window": "obs_ndi_multistream/obs_config/scene_collections/playtest.json at main · Kev-Jia/obs_ndi_multistream - Google Chrome:Chrome_WidgetWin_1:chrome.exe"
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.monitor-on": [],
+                "libobs.monitor-off": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "monitoring_enabled": false,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 553648131,
             "name": "xbox-controller",
             "uuid": "486a8c90-c1e1-4f87-aa55-d70db4f0f7cb",
             "id": "input-overlay",
