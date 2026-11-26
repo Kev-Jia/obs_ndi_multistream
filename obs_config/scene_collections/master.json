@@ -1,7 +1,7 @@
 {
     "name": "master",
     "DesktopAudioDevice1": {
-        "prev_ver": 553648129,
+        "prev_ver": 553648131,
         "name": "Desktop Audio",
         "uuid": "ffcd20f0-54b4-4ab4-8813-35d9d12f6f12",
         "id": "wasapi_output_capture",
@@ -35,7 +35,7 @@
         "private_settings": {}
     },
     "AuxAudioDevice1": {
-        "prev_ver": 553648129,
+        "prev_ver": 553648131,
         "name": "Mic/Aux",
         "uuid": "80deb0b2-fce5-4ca8-8c2a-497b773802d8",
         "id": "wasapi_input_capture",
@@ -71,16 +71,19 @@
     "groups": [],
     "scene_order": [
         {
+            "name": "Multiview 2x2_1080"
+        },
+        {
             "name": "Multiview 2x3_1080"
         },
         {
             "name": "Multiview 2x4_1080"
         },
         {
-            "name": "Multiview 3x4_1080"
+            "name": "Multiview 2x5_1080"
         },
         {
-            "name": "Multiview 2x5_1080"
+            "name": "Multiview 3x4_1080"
         },
         {
             "name": "Multiview 4x5_1080"
@@ -161,8 +164,8 @@
             "name": "24"
         }
     ],
-    "current_scene": "Multiview 3x4_1080",
-    "current_program_scene": "Multiview 3x4_1080",
+    "current_scene": "Multiview 2x2_1080",
+    "current_program_scene": "Multiview 2x2_1080",
     "canvases": [],
     "current_transition": "Fade",
     "transition_duration": 300,
@@ -193,7 +196,7 @@
     "saved_projectors": [],
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": -3,
+    "scaling_level": 5,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "virtual-camera": {
@@ -576,7 +579,7 @@
     "version": 2,
     "sources": [
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "01",
             "uuid": "61ad44d7-86dd-42db-8fbf-8645fc164c40",
             "id": "scene",
@@ -666,7 +669,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "02",
             "uuid": "cfb89f6f-6e1e-4a75-ad0e-b40d44518eea",
             "id": "scene",
@@ -756,7 +759,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "03",
             "uuid": "736d3a1a-3353-4977-8eae-b20ad75f9891",
             "id": "scene",
@@ -846,7 +849,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "04",
             "uuid": "5f980ab6-f958-4c8b-82c7-94da0a8894c9",
             "id": "scene",
@@ -936,7 +939,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "05",
             "uuid": "535c82a3-b140-4c70-b0bd-e1f7d5f299c7",
             "id": "scene",
@@ -1026,7 +1029,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "06",
             "uuid": "6c34d66a-cee0-41e5-9a65-657fdc6d8b8d",
             "id": "scene",
@@ -1116,7 +1119,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "07",
             "uuid": "9c4a4f3f-0d59-43bb-a146-461e624a37f3",
             "id": "scene",
@@ -1206,7 +1209,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "08",
             "uuid": "9e4c30ee-a4e1-42fe-838b-6543be3fc353",
             "id": "scene",
@@ -1296,7 +1299,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "09",
             "uuid": "1c45648b-29d6-486a-b6fb-203b257f4d0e",
             "id": "scene",
@@ -1386,7 +1389,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "10",
             "uuid": "c90fa889-5c1f-489e-91e4-36b8a3c82b1b",
             "id": "scene",
@@ -1476,7 +1479,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "11",
             "uuid": "d5ef8139-aa0e-47ec-9cb3-ace682641429",
             "id": "scene",
@@ -1566,7 +1569,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "12",
             "uuid": "c6603288-cac2-42e0-9a66-ccf7d0d8ded9",
             "id": "scene",
@@ -1656,7 +1659,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "13",
             "uuid": "643ffa9a-043c-43a5-afc6-389912f88d7a",
             "id": "scene",
@@ -1746,7 +1749,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "14",
             "uuid": "b57675bb-920a-4d1f-b0e0-6cf0b3090eea",
             "id": "scene",
@@ -1784,12 +1787,12 @@
                             "y": -1.0
                         },
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 1.5,
+                            "y": 1.5
                         },
                         "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 1.5,
+                            "y": 1.5
                         },
                         "bounds": {
                             "x": 0.0,
@@ -1836,7 +1839,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "15",
             "uuid": "4f91a69e-d99c-4afc-83c2-bab0f1562eb5",
             "id": "scene",
@@ -1926,7 +1929,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "16",
             "uuid": "4b65aa39-8374-4b08-9b3d-9b8211018343",
             "id": "scene",
@@ -2016,7 +2019,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "17",
             "uuid": "a9b1df54-503b-4936-9fc5-9ee5998c8c66",
             "id": "scene",
@@ -2106,7 +2109,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "18",
             "uuid": "6a4eace0-5adc-4c81-82fd-6231405320f1",
             "id": "scene",
@@ -2196,7 +2199,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "19",
             "uuid": "3783cc53-9a8f-4174-8882-064068dc6736",
             "id": "scene",
@@ -2286,7 +2289,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "20",
             "uuid": "2400ce79-864b-4707-9f6d-5c4c1d3ca033",
             "id": "scene",
@@ -2376,7 +2379,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "21",
             "uuid": "ef19506a-c83c-42df-8831-6fcb819d9a66",
             "id": "scene",
@@ -2414,20 +2417,20 @@
                             "y": -1.0
                         },
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 1.5,
+                            "y": 1.5
                         },
                         "scale_rel": {
+                            "x": 1.5,
+                            "y": 1.5
+                        },
+                        "bounds": {
                             "x": 1.0,
                             "y": 1.0
                         },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
                         "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 0.0018518518190830946,
+                            "y": 0.0018518518190830946
                         },
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -2466,7 +2469,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "22",
             "uuid": "e93366b5-3d0c-4018-96cf-412305b0594b",
             "id": "scene",
@@ -2556,7 +2559,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "23",
             "uuid": "b8b06587-3cad-4d82-8c33-34efb92b2121",
             "id": "scene",
@@ -2646,7 +2649,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "24",
             "uuid": "117ee089-4521-4c7b-b7fc-dd66227803aa",
             "id": "scene",
@@ -2684,12 +2687,12 @@
                             "y": -1.0
                         },
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 1.5,
+                            "y": 1.5
                         },
                         "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 1.5,
+                            "y": 1.5
                         },
                         "bounds": {
                             "x": 0.0,
@@ -2736,7 +2739,268 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
+            "name": "Multiview 2x2_1080",
+            "uuid": "fdee4e78-1ebd-41b2-97ba-01c106316a84",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 8,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "NDI08",
+                        "source_uuid": "f14f3246-6ea0-41ca-95b9-a7b0badbd0dd",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 2,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 8,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 960.0,
+                            "y": 540.0
+                        },
+                        "pos_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 960.0,
+                            "y": 540.0
+                        },
+                        "bounds_rel": {
+                            "x": 1.7777777910232544,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 300
+                        },
+                        "hide_transition": {
+                            "duration": 300
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "NDI07",
+                        "source_uuid": "e5749ab3-c3c7-4696-9339-f6b87d675023",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 2,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 7,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 540.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 960.0,
+                            "y": 540.0
+                        },
+                        "bounds_rel": {
+                            "x": 1.7777777910232544,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 300
+                        },
+                        "hide_transition": {
+                            "duration": 300
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "NDI06",
+                        "source_uuid": "1bb0a235-ae98-417a-8924-e85cd7b930a5",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 2,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 960.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": 0.0,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 960.0,
+                            "y": 540.0
+                        },
+                        "bounds_rel": {
+                            "x": 1.7777777910232544,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "NDI05",
+                        "source_uuid": "f00b64cc-686c-4814-aeff-c5d9e8241b5f",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 2,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 960.0,
+                            "y": 540.0
+                        },
+                        "bounds_rel": {
+                            "x": 1.7777777910232544,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.8": [],
+                "libobs.hide_scene_item.8": [],
+                "libobs.show_scene_item.7": [],
+                "libobs.hide_scene_item.7": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": [],
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "monitoring_enabled": false,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 553648131,
             "name": "Multiview 2x3_1080",
             "uuid": "46db100b-d333-4041-9338-8db4a1b3a277",
             "id": "scene",
@@ -2774,12 +3038,12 @@
                             "y": 0.11111116409301758
                         },
                         "scale": {
-                            "x": 0.3333333432674408,
-                            "y": 0.3333333432674408
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.3333333432674408,
-                            "y": 0.3333333432674408
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 640.0,
@@ -2829,12 +3093,12 @@
                             "y": 0.11111116409301758
                         },
                         "scale": {
-                            "x": 0.3333333432674408,
-                            "y": 0.3333333432674408
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.3333333432674408,
-                            "y": 0.3333333432674408
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 640.0,
@@ -2884,12 +3148,12 @@
                             "y": 0.11111116409301758
                         },
                         "scale": {
-                            "x": 0.3333333432674408,
-                            "y": 0.3333333432674408
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.3333333432674408,
-                            "y": 0.3333333432674408
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 640.0,
@@ -2939,12 +3203,12 @@
                             "y": -0.7777777910232544
                         },
                         "scale": {
-                            "x": 0.3333333432674408,
-                            "y": 0.3333333432674408
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.3333333432674408,
-                            "y": 0.3333333432674408
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 640.0,
@@ -2994,12 +3258,12 @@
                             "y": -0.7777777910232544
                         },
                         "scale": {
-                            "x": 0.3333333432674408,
-                            "y": 0.3333333432674408
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.3333333432674408,
-                            "y": 0.3333333432674408
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 640.0,
@@ -3049,12 +3313,12 @@
                             "y": -0.7777777910232544
                         },
                         "scale": {
-                            "x": 0.3333333432674408,
-                            "y": 0.3333333432674408
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.3333333432674408,
-                            "y": 0.3333333432674408
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 640.0,
@@ -3111,7 +3375,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "Multiview 2x4_1080",
             "uuid": "bcc7d029-919a-4692-9530-4cd900d663f7",
             "id": "scene",
@@ -3149,12 +3413,12 @@
                             "y": 0.11111116409301758
                         },
                         "scale": {
-                            "x": 0.25,
-                            "y": 0.25
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.25,
-                            "y": 0.25
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 480.0,
@@ -3204,12 +3468,12 @@
                             "y": 0.11111116409301758
                         },
                         "scale": {
-                            "x": 0.25,
-                            "y": 0.25
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.25,
-                            "y": 0.25
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 480.0,
@@ -3259,12 +3523,12 @@
                             "y": 0.16666662693023682
                         },
                         "scale": {
-                            "x": 0.25,
-                            "y": 0.25
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.25,
-                            "y": 0.25
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 480.0,
@@ -3314,12 +3578,12 @@
                             "y": 0.16666662693023682
                         },
                         "scale": {
-                            "x": 0.25,
-                            "y": 0.25
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.25,
-                            "y": 0.25
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 480.0,
@@ -3369,12 +3633,12 @@
                             "y": -0.6666666269302368
                         },
                         "scale": {
-                            "x": 0.25,
-                            "y": 0.25
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.25,
-                            "y": 0.25
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 480.0,
@@ -3424,12 +3688,12 @@
                             "y": -0.6666666269302368
                         },
                         "scale": {
-                            "x": 0.25,
-                            "y": 0.25
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.25,
-                            "y": 0.25
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 480.0,
@@ -3479,12 +3743,12 @@
                             "y": -0.6666666269302368
                         },
                         "scale": {
-                            "x": 0.25,
-                            "y": 0.25
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.25,
-                            "y": 0.25
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 480.0,
@@ -3534,12 +3798,12 @@
                             "y": -0.6666666269302368
                         },
                         "scale": {
-                            "x": 0.25,
-                            "y": 0.25
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.25,
-                            "y": 0.25
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 480.0,
@@ -3600,7 +3864,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "Multiview 2x5_1080",
             "uuid": "201fffeb-8239-4b64-8354-6e6dc80edf33",
             "id": "scene",
@@ -3638,12 +3902,12 @@
                             "y": 0.20000004768371582
                         },
                         "scale": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 384.0,
@@ -3693,12 +3957,12 @@
                             "y": 0.20000004768371582
                         },
                         "scale": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 384.0,
@@ -3748,12 +4012,12 @@
                             "y": 0.20000004768371582
                         },
                         "scale": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 384.0,
@@ -3803,12 +4067,12 @@
                             "y": 0.20000004768371582
                         },
                         "scale": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 384.0,
@@ -3858,12 +4122,12 @@
                             "y": 0.20000004768371582
                         },
                         "scale": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 384.0,
@@ -3913,12 +4177,12 @@
                             "y": -0.6000000238418579
                         },
                         "scale": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 384.0,
@@ -3968,12 +4232,12 @@
                             "y": -0.6000000238418579
                         },
                         "scale": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 384.0,
@@ -4023,12 +4287,12 @@
                             "y": -0.6000000238418579
                         },
                         "scale": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 384.0,
@@ -4078,12 +4342,12 @@
                             "y": -0.6000000238418579
                         },
                         "scale": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 384.0,
@@ -4133,12 +4397,12 @@
                             "y": -0.6000000238418579
                         },
                         "scale": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 384.0,
@@ -4203,7 +4467,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "Multiview 3x4_1080",
             "uuid": "0f49c821-2433-4fa7-8311-584ae9138b22",
             "id": "scene",
@@ -4351,12 +4615,12 @@
                             "y": 0.3888888359069824
                         },
                         "scale": {
-                            "x": 0.25,
-                            "y": 0.25
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.25,
-                            "y": 0.25
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 480.0,
@@ -4406,12 +4670,12 @@
                             "y": 0.3888888359069824
                         },
                         "scale": {
-                            "x": 0.25,
-                            "y": 0.25
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.25,
-                            "y": 0.25
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 480.0,
@@ -4461,12 +4725,12 @@
                             "y": -0.25
                         },
                         "scale": {
-                            "x": 0.25,
-                            "y": 0.25
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.25,
-                            "y": 0.25
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 480.0,
@@ -4516,12 +4780,12 @@
                             "y": -0.25
                         },
                         "scale": {
-                            "x": 0.25,
-                            "y": 0.25
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.25,
-                            "y": 0.25
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 480.0,
@@ -4571,12 +4835,12 @@
                             "y": -0.25
                         },
                         "scale": {
-                            "x": 0.25,
-                            "y": 0.25
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.25,
-                            "y": 0.25
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 480.0,
@@ -4626,12 +4890,12 @@
                             "y": -0.25
                         },
                         "scale": {
-                            "x": 0.25,
-                            "y": 0.25
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.25,
-                            "y": 0.25
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 480.0,
@@ -4681,12 +4945,12 @@
                             "y": -0.8888888955116272
                         },
                         "scale": {
-                            "x": 0.25,
-                            "y": 0.25
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.25,
-                            "y": 0.25
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 480.0,
@@ -4736,12 +5000,12 @@
                             "y": -0.8888888955116272
                         },
                         "scale": {
-                            "x": 0.25,
-                            "y": 0.25
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.25,
-                            "y": 0.25
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 480.0,
@@ -4791,12 +5055,12 @@
                             "y": -0.8888888955116272
                         },
                         "scale": {
-                            "x": 0.25,
-                            "y": 0.25
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.25,
-                            "y": 0.25
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 480.0,
@@ -4846,12 +5110,12 @@
                             "y": -0.8888888955116272
                         },
                         "scale": {
-                            "x": 0.25,
-                            "y": 0.25
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.25,
-                            "y": 0.25
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 480.0,
@@ -4920,7 +5184,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "Multiview 4x5_1080",
             "uuid": "61bc22cc-39cd-43de-a0a8-34145d0143f1",
             "id": "scene",
@@ -5453,12 +5717,12 @@
                             "y": 0.037037014961242676
                         },
                         "scale": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 384.0,
@@ -5508,12 +5772,12 @@
                             "y": -0.43703705072402954
                         },
                         "scale": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 384.0,
@@ -5563,12 +5827,12 @@
                             "y": -0.43703705072402954
                         },
                         "scale": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 384.0,
@@ -5618,12 +5882,12 @@
                             "y": -0.43703705072402954
                         },
                         "scale": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 384.0,
@@ -5673,12 +5937,12 @@
                             "y": -0.43703705072402954
                         },
                         "scale": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 384.0,
@@ -5728,12 +5992,12 @@
                             "y": -0.43703705072402954
                         },
                         "scale": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 384.0,
@@ -5783,12 +6047,12 @@
                             "y": -0.9259259104728699
                         },
                         "scale": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 384.0,
@@ -5838,12 +6102,12 @@
                             "y": -0.9259259104728699
                         },
                         "scale": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 384.0,
@@ -5893,12 +6157,12 @@
                             "y": -0.9259259104728699
                         },
                         "scale": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 384.0,
@@ -5948,12 +6212,12 @@
                             "y": -0.9259259104728699
                         },
                         "scale": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 384.0,
@@ -6003,12 +6267,12 @@
                             "y": -0.9259259104728699
                         },
                         "scale": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.20000000298023224,
-                            "y": 0.20000000298023224
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 384.0,
@@ -6093,7 +6357,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "Multiview 4x6_1080",
             "uuid": "60d1cc80-a613-4a6e-965b-fbec47b52a11",
             "id": "scene",
@@ -6846,12 +7110,12 @@
                             "y": -0.3999999761581421
                         },
                         "scale": {
-                            "x": 0.1666666716337204,
-                            "y": 0.1666666716337204
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.1666666716337204,
-                            "y": 0.1666666716337204
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 320.0,
@@ -6901,12 +7165,12 @@
                             "y": -0.3999999761581421
                         },
                         "scale": {
-                            "x": 0.1666666716337204,
-                            "y": 0.1666666716337204
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.1666666716337204,
-                            "y": 0.1666666716337204
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 320.0,
@@ -6956,12 +7220,12 @@
                             "y": -0.3999999761581421
                         },
                         "scale": {
-                            "x": 0.1666666716337204,
-                            "y": 0.1666666716337204
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.1666666716337204,
-                            "y": 0.1666666716337204
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 320.0,
@@ -7011,12 +7275,12 @@
                             "y": -0.3999999761581421
                         },
                         "scale": {
-                            "x": 0.1666666716337204,
-                            "y": 0.1666666716337204
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.1666666716337204,
-                            "y": 0.1666666716337204
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 320.0,
@@ -7066,12 +7330,12 @@
                             "y": -0.3999999761581421
                         },
                         "scale": {
-                            "x": 0.1666666716337204,
-                            "y": 0.1666666716337204
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.1666666716337204,
-                            "y": 0.1666666716337204
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 320.0,
@@ -7121,12 +7385,12 @@
                             "y": -0.8666666746139526
                         },
                         "scale": {
-                            "x": 0.1666666716337204,
-                            "y": 0.1666666716337204
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.1666666716337204,
-                            "y": 0.1666666716337204
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 320.0,
@@ -7176,12 +7440,12 @@
                             "y": -0.8666666746139526
                         },
                         "scale": {
-                            "x": 0.1666666716337204,
-                            "y": 0.1666666716337204
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.1666666716337204,
-                            "y": 0.1666666716337204
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 320.0,
@@ -7231,12 +7495,12 @@
                             "y": -0.8666666746139526
                         },
                         "scale": {
-                            "x": 0.1666666716337204,
-                            "y": 0.1666666716337204
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.1666666716337204,
-                            "y": 0.1666666716337204
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 320.0,
@@ -7286,12 +7550,12 @@
                             "y": -0.8666666746139526
                         },
                         "scale": {
-                            "x": 0.1666666716337204,
-                            "y": 0.1666666716337204
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.1666666716337204,
-                            "y": 0.1666666716337204
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 320.0,
@@ -7341,12 +7605,12 @@
                             "y": -0.8666666746139526
                         },
                         "scale": {
-                            "x": 0.1666666716337204,
-                            "y": 0.1666666716337204
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.1666666716337204,
-                            "y": 0.1666666716337204
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 320.0,
@@ -7396,12 +7660,12 @@
                             "y": -0.8666666746139526
                         },
                         "scale": {
-                            "x": 0.1666666716337204,
-                            "y": 0.1666666716337204
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.1666666716337204,
-                            "y": 0.1666666716337204
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 320.0,
@@ -7494,7 +7758,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "NDI01",
             "uuid": "563416ab-1dcb-4c7b-ba31-1bf905b6b41b",
             "id": "ndi_source",
@@ -7502,6 +7766,9 @@
             "settings": {
                 "ndi_fix_alpha_blending": false,
                 "ndi_source_name": "BRIDGE01 (PC01 (INPUT01))",
+                "ndi_recv_hw_accel": false,
+                "ndi_bw_mode": 0,
+                "ndi_sync": 1,
                 "web_control_url": ""
             },
             "mixers": 255,
@@ -7510,7 +7777,7 @@
             "volume": 1.0,
             "balance": 0.5,
             "enabled": true,
-            "muted": true,
+            "muted": false,
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -7530,7 +7797,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "NDI02",
             "uuid": "4c27154c-f6e2-4e8b-a722-a37148c9e9ce",
             "id": "ndi_source",
@@ -7538,6 +7805,8 @@
             "settings": {
                 "ndi_fix_alpha_blending": false,
                 "ndi_source_name": "BRIDGE02 (PC02 (INPUT02))",
+                "ndi_recv_hw_accel": false,
+                "ndi_sync": 2,
                 "web_control_url": ""
             },
             "mixers": 255,
@@ -7546,7 +7815,7 @@
             "volume": 1.0,
             "balance": 0.5,
             "enabled": true,
-            "muted": true,
+            "muted": false,
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -7566,7 +7835,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "NDI03",
             "uuid": "708fd9d0-4f5c-4f32-b3d8-2dbae3b11a4f",
             "id": "ndi_source",
@@ -7574,6 +7843,8 @@
             "settings": {
                 "ndi_fix_alpha_blending": false,
                 "ndi_source_name": "BRIDGE03 (PC03 (INPUT03))",
+                "ndi_recv_hw_accel": false,
+                "ndi_sync": 1,
                 "web_control_url": ""
             },
             "mixers": 255,
@@ -7582,7 +7853,7 @@
             "volume": 1.0,
             "balance": 0.5,
             "enabled": true,
-            "muted": true,
+            "muted": false,
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -7602,7 +7873,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "NDI04",
             "uuid": "3a8f9aa8-c653-449e-9ffa-91299e597310",
             "id": "ndi_source",
@@ -7610,6 +7881,8 @@
             "settings": {
                 "ndi_fix_alpha_blending": false,
                 "ndi_source_name": "BRIDGE04 (PC04 (INPUT04))",
+                "ndi_recv_hw_accel": false,
+                "ndi_sync": 1,
                 "web_control_url": ""
             },
             "mixers": 255,
@@ -7618,7 +7891,7 @@
             "volume": 1.0,
             "balance": 0.5,
             "enabled": true,
-            "muted": true,
+            "muted": false,
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -7638,7 +7911,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "NDI05",
             "uuid": "f00b64cc-686c-4814-aeff-c5d9e8241b5f",
             "id": "ndi_source",
@@ -7646,6 +7919,7 @@
             "settings": {
                 "ndi_fix_alpha_blending": false,
                 "ndi_source_name": "BRIDGE05 (PC05 (INPUT05))",
+                "ndi_recv_hw_accel": false,
                 "web_control_url": ""
             },
             "mixers": 255,
@@ -7654,7 +7928,7 @@
             "volume": 1.0,
             "balance": 0.5,
             "enabled": true,
-            "muted": true,
+            "muted": false,
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -7674,7 +7948,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "NDI06",
             "uuid": "1bb0a235-ae98-417a-8924-e85cd7b930a5",
             "id": "ndi_source",
@@ -7682,6 +7956,7 @@
             "settings": {
                 "ndi_fix_alpha_blending": false,
                 "ndi_source_name": "BRIDGE06 (PC06 (INPUT06))",
+                "ndi_recv_hw_accel": false,
                 "web_control_url": ""
             },
             "mixers": 255,
@@ -7690,7 +7965,7 @@
             "volume": 1.0,
             "balance": 0.5,
             "enabled": true,
-            "muted": true,
+            "muted": false,
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -7710,7 +7985,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "NDI07",
             "uuid": "e5749ab3-c3c7-4696-9339-f6b87d675023",
             "id": "ndi_source",
@@ -7726,7 +8001,7 @@
             "volume": 1.0,
             "balance": 0.5,
             "enabled": true,
-            "muted": true,
+            "muted": false,
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -7746,7 +8021,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "NDI08",
             "uuid": "f14f3246-6ea0-41ca-95b9-a7b0badbd0dd",
             "id": "ndi_source",
@@ -7762,7 +8037,7 @@
             "volume": 1.0,
             "balance": 0.5,
             "enabled": true,
-            "muted": true,
+            "muted": false,
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -7782,7 +8057,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "NDI09",
             "uuid": "5df1805f-12c1-4541-b198-b5bd9b6ba433",
             "id": "ndi_source",
@@ -7798,7 +8073,7 @@
             "volume": 1.0,
             "balance": 0.5,
             "enabled": true,
-            "muted": true,
+            "muted": false,
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -7818,7 +8093,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "NDI10",
             "uuid": "c53749f8-43b2-410a-9364-8b553203ec18",
             "id": "ndi_source",
@@ -7834,7 +8109,7 @@
             "volume": 1.0,
             "balance": 0.5,
             "enabled": true,
-            "muted": true,
+            "muted": false,
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -7854,7 +8129,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "NDI11",
             "uuid": "3a719380-4e3a-424c-acf2-f622fb248cdf",
             "id": "ndi_source",
@@ -7870,7 +8145,7 @@
             "volume": 1.0,
             "balance": 0.5,
             "enabled": true,
-            "muted": true,
+            "muted": false,
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -7890,7 +8165,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "NDI12",
             "uuid": "2e45a1e9-9d5a-437b-aab3-d0fb1d8b391b",
             "id": "ndi_source",
@@ -7906,7 +8181,7 @@
             "volume": 1.0,
             "balance": 0.5,
             "enabled": true,
-            "muted": true,
+            "muted": false,
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -7926,7 +8201,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "NDI13",
             "uuid": "b0119578-68b2-4024-b803-0fbc7e44ba52",
             "id": "ndi_source",
@@ -7942,7 +8217,7 @@
             "volume": 1.0,
             "balance": 0.5,
             "enabled": true,
-            "muted": true,
+            "muted": false,
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -7962,7 +8237,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "NDI14",
             "uuid": "e055f8b1-a058-492e-9087-3e0d7985777f",
             "id": "ndi_source",
@@ -7978,7 +8253,7 @@
             "volume": 1.0,
             "balance": 0.5,
             "enabled": true,
-            "muted": true,
+            "muted": false,
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -7998,7 +8273,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "NDI15",
             "uuid": "85d7eafd-53b6-4573-bc3c-f9907fa7a94a",
             "id": "ndi_source",
@@ -8006,6 +8281,7 @@
             "settings": {
                 "ndi_fix_alpha_blending": false,
                 "ndi_source_name": "BRIDGE15 (PC15 (INPUT15))",
+                "ndi_sync": 1,
                 "web_control_url": ""
             },
             "mixers": 255,
@@ -8014,7 +8290,7 @@
             "volume": 1.0,
             "balance": 0.5,
             "enabled": true,
-            "muted": true,
+            "muted": false,
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -8034,7 +8310,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "NDI16",
             "uuid": "ee78dd7e-25d4-4e1e-9dc6-6e698b9bb078",
             "id": "ndi_source",
@@ -8042,6 +8318,8 @@
             "settings": {
                 "ndi_fix_alpha_blending": false,
                 "ndi_source_name": "BRIDGE16 (PC16 (INPUT16))",
+                "ndi_framesync": false,
+                "ndi_sync": 2,
                 "web_control_url": ""
             },
             "mixers": 255,
@@ -8050,7 +8328,7 @@
             "volume": 1.0,
             "balance": 0.5,
             "enabled": true,
-            "muted": true,
+            "muted": false,
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -8070,7 +8348,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "NDI17",
             "uuid": "ffb56b13-9e92-4e2e-a9f9-42786a2fb25f",
             "id": "ndi_source",
@@ -8106,7 +8384,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "NDI18",
             "uuid": "3298d76b-551f-4b32-bf4e-c69a0a5fa2f4",
             "id": "ndi_source",
@@ -8122,7 +8400,7 @@
             "volume": 1.0,
             "balance": 0.5,
             "enabled": true,
-            "muted": true,
+            "muted": false,
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -8142,7 +8420,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "NDI19",
             "uuid": "8feee4d6-a578-4019-af08-fd6d934cfc5e",
             "id": "ndi_source",
@@ -8178,14 +8456,14 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "NDI20",
             "uuid": "4fc75e39-7d5f-4433-a51f-7562b3958a5a",
             "id": "ndi_source",
             "versioned_id": "ndi_source",
             "settings": {
                 "ndi_fix_alpha_blending": false,
-                "ndi_source_name": "BRIDGE21 (PC21 (INPUT21))",
+                "ndi_source_name": "BRIDGE20 (PC20 (INPUT20))",
                 "web_control_url": ""
             },
             "mixers": 255,
@@ -8214,7 +8492,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "NDI21",
             "uuid": "fd0a70ea-8a45-4666-8c82-1b671916c42d",
             "id": "ndi_source",
@@ -8250,7 +8528,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "NDI22",
             "uuid": "b3aaac90-b128-450a-98c1-78b2808fa8e2",
             "id": "ndi_source",
@@ -8286,7 +8564,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "NDI23",
             "uuid": "9c08af0d-e4eb-4723-adb0-61cf2aaebea2",
             "id": "ndi_source",
@@ -8322,7 +8600,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 553648129,
+            "prev_ver": 553648131,
             "name": "NDI24",
             "uuid": "a26b17a7-da9c-4173-82b1-ebc60cc45bb3",
             "id": "ndi_source",
